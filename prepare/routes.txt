@@ -1,0 +1,42 @@
+*****computers -r
+GET /computers  SHOW ALL COMPUTERS
+POST /computers POST COMPUTERS
+DELETE /computers/:id DELETE COMPUTERS
+UPDATE /computers/:id UPDATE COMPUTERS
+GETONE /computers/:id ONE COMPUTERS
+
+*****brands -r
+
+GET /brands GET ALL BRANDS
+POST /brands  POST BRAND
+DELETE /brands/:id DELETE BRAND
+UPDATE /brands/:id UPDATE BRAND
+
+*****models -r
+
+GET /brands/:brand_id GET ALL MODELS
+POST /brands/:brand_id POST MODEL
+DELETE /brands/:brand_id DELETE MODEL
+UPDATE /brands/:brand_id UPDATE MODEL
+
+*****brands/:brand_id/:model_id
+
+GET /brands/:brand_id/:model_id GET ALL COMPUTERS THIS FILTER
+
+
+*****CATEGORY
+
+GET /category GET ALL CATEGORY
+POST /category POST CATEGORY
+DELETE /category/:id DELETE CATEGORY
+UPDATE /category/:id UPDATE CATEGORY
+GETONE /category/:id GET ALL COMPUTERS THIS FILTER
+
+*****USERS
+
+GET /users GET ALL users
+POST /users POST users
+DELETE /users/:id DELETE users
+UPDATE /users/:id UPDATE users
+GETONE /users/:id GET ALL users THIS FILTER
+
